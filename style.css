@@ -159,7 +159,7 @@ h3
 {
     font-family: "comic sans ms";
     font-weight: 800px;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 10px;
     color: #89B5AF;
     width: 100%;
@@ -218,3 +218,37 @@ h3
     padding-top: 120px;
 }
 
+.tengah
+{
+    text-align: center;
+    width: 100%;
+}
+
+.dokterlist
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambardokter
+{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gambardokter img 
+{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.gambardokter p
+{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #89B5AF;
+}
