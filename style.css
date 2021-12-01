@@ -106,6 +106,7 @@ h2
     width: 100%;
     line-height: 50px;
 }
+
 a.tbl-biru
 {
     background: #89B5AF;
@@ -145,3 +146,75 @@ p
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
 }
+
+
+.gambar img
+{
+    width: 300px;
+    height: 300px;
+    padding: 400px 25px 400px 25px;
+}
+
+h3
+{
+    font-family: "comic sans ms";
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #89B5AF;
+    width: 100%;
+    line-height: 50px;
+    margin: 20px 10px 20px 10px;
+}
+
+.kolom .deskripsi1
+{
+    font-family: "comic sans ms";
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #89B5AF;
+    width: 100%;
+    line-height: 50px;
+    margin: 20px 10px 20px 10px;
+}
+.gambar1 img
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px 20px 30px 20px;
+    margin-top: 250px;
+}
+
+.gambar2 img
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px 20px 30px 20px;
+    padding-top: 150px;
+}
+
+.gambar3 img
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px 20px 30px 20px;
+    padding-top: 150px;
+}
+
+.gambar4 img
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px 20px 30px 20px;
+    padding-top: 150px;
+}
+
+.gambar5 img
+{
+    width: 300px;
+    height: 300px;
+    padding: 30px 20px 30px 20px;
+    padding-top: 120px;
+}
+
