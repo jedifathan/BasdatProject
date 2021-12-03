@@ -1,14 +1,12 @@
 <?php
 include("config.php");
 if(isset($_POST['submit'])&&!empty($_POST['submit'])){
-    
       $sql = "insert into public.user(name,email,password,mobno)values('".$_POST['name']."','".$_POST['email']."','".md5($_POST['pwd'])."','".$_POST['mobno']."')";
-    $ret = pg_query($dbconn, $sql);
+    $ret = pg_query($sql);
     if($ret){
-            echo "Data saved Successfully";
+      header('Location: index.php?status=success');
     }else{
-        
-            echo "Something Went Wrong";
+      header('Location: index.php?status=fail');
     }
 }
 

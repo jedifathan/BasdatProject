@@ -22,10 +22,12 @@
 	<?php if(isset($_GET['status'])): ?>
 	<p>
 		<?php
-			if($_GET['status'] == 'sukses'){
-				echo "Pendaftaran siswa baru berhasil!";
+			if($_GET['status'] == 'success'){
+				$message = "Data saved successfully";
+				echo "<script type='text/javascript'>alert('$message');</script>";
 			} else {
-				echo "Pendaftaran gagal!";
+				$message = "Something went wrong i guess ...";
+				echo "<script type='text/javascript'>alert('$message');</script>";
 			}
 		?>
 	</p>
